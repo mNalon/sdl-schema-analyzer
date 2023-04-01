@@ -1,9 +1,13 @@
 {
     "env": {
-        "browser": true,
+        "node": true,
         "commonjs": true,
-        "es2021": true
+        "es2021": true,
+        "jest": true
     },
+    "globals": {
+        "expect": true
+    }, 
     "extends": "airbnb-base",
     "overrides": [
     ],
