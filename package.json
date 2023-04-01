@@ -1,0 +1,11 @@
+{
+  "name": "sdl-deprecated-fields-extractor",
+  "version": "0.1.0",
+  "description": "An extractor to obtain all pieces of your graph marked with the @deprecated directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "mNalonS",
+  "license": "ISC"
+}
