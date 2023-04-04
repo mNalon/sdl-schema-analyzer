@@ -1,6 +1,6 @@
 {
   "name": "sdl-schema-analyzer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An analyzer to extract info about your schema",
   "main": "index.js",
   "scripts": {
