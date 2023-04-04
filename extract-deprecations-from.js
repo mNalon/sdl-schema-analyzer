@@ -27,6 +27,8 @@ const findDeprecatedDirective = (definition) => definition.directives.find(isDep
 const extractDeprecationsFrom = (definition) => {
   const deprecations = []
 
+  // https://spec.graphql.org/October2021/#sec--deprecated
+
   if (definition.kind === DefinitionType.ENUM) {
     const label = `${definition.name.value}`
     const deprecatedDirective = findDeprecatedDirective(definition)
